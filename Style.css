@@ -1,0 +1,29 @@
+.nengajo {
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+img {
+  border: 3px gray solid;
+  width: 32vw;
+  height: 90vh;
+}
+
+@media (max-width: 920px) {
+  img {
+    width: 80vw;
+    height: 100vw;
+  }
+}
+/*# sourceMappingURL=Style.css.map */
